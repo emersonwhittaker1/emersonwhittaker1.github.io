@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #828385; /* #f3f6fa */
+		background: #b1cbff; /* #f3f6fa */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1867,7 +1867,7 @@ input, select, textarea {
 
 			.image.fit img {
 				display: block;
-				width: 40%; /*100% */
+				width: 100%;
 			}
 
 		.image.featured {
@@ -1877,7 +1877,7 @@ input, select, textarea {
 
 			.image.featured img {
 				display: block;
-				width: 100%;
+				width: 40%; /* 100% */
 			}
 
 /* Icon */
