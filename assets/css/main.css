@@ -1867,7 +1867,7 @@ input, select, textarea {
 
 			.image.fit img {
 				display: block;
-				width: 100%;
+				width: 40%; /*100% */
 			}
 
 		.image.featured {
