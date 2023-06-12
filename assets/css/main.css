@@ -1882,10 +1882,15 @@ input, select, textarea {
 		
 		.image.small {
 			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			width: 50%;
 		}
+			.image.small img{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+			}
+
+
 
 /* Icon */
 
