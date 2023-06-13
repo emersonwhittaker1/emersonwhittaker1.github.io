@@ -1877,7 +1877,7 @@ input, select, textarea {
 
 			.image.featured img {
 				display: block;
-				width: 100%; /* 100% */
+				width: 100%; 
 			}
 
 /* Icon */
@@ -2526,7 +2526,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #585c64;
+		background-color: #585d64;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
@@ -2546,7 +2546,7 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(27, 38, 52, 0.5);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2624,7 +2624,7 @@ input, select, textarea {
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
+		background-color: #585d64;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
