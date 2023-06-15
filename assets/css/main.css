@@ -1859,26 +1859,30 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
+			opacity: 100%;
 		}
 
 		.image.fit {
 			display: block;
+			opacity: 100%;
 		}
 
 			.image.fit img {
 				display: block;
 				width: 100%;
+				opacity: 100%;
 			}
 
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
+			opacity: 100%;
 		}
 
 			.image.featured img {
 				display: block;
 				width: 100%; 
-				opacity: 1;
+				opacity: 100%;
 			}
 
 /* Icon */
