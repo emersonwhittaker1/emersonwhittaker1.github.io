@@ -1824,24 +1824,24 @@ input, select, textarea {
 
 	::-webkit-input-placeholder {
 		color: inherit;
-		opacity: 0;
+		opacity: 0.1;
 		position: relative;
 		top: 3px;
 	}
 
 	:-moz-placeholder {
 		color: inherit;
-		opacity: 0;
+		opacity: 0.1;
 	}
 
 	::-moz-placeholder {
 		color: inherit;
-		opacity: 0;
+		opacity: 0.1;
 	}
 
 	:-ms-input-placeholder {
 		color: inherit;
-		opacity: 0;
+		opacity: 0.1;
 	}
 
 /* Image */
@@ -1878,6 +1878,7 @@ input, select, textarea {
 			.image.featured img {
 				display: block;
 				width: 100%; 
+				opacity: 1;
 			}
 
 /* Icon */
@@ -1983,7 +1984,7 @@ input, select, textarea {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.0;/* 0.35; */
+			opacity:  0.35; 
 			text-align: center;
 		}
 
@@ -2039,7 +2040,7 @@ input, select, textarea {
 	ul.featured-icons {
 		cursor: default;
 		margin: -0.75em 0 0 0;
-		opacity: 0.0;/* 0.35; */
+		opacity: 0.35; 
 		overflow: hidden;
 		position: relative;
 		list-style: none;
@@ -3022,7 +3023,7 @@ input, select, textarea {
 						height: 40px;
 						left: 10px;
 						line-height: 40px;
-						opacity:  0.0;/* 0.5; */
+						opacity:   0.5; 
 						position: absolute;
 						top: 11px;
 						width: 60px;
@@ -3076,7 +3077,7 @@ input, select, textarea {
 					display: block;
 					height: 3em;
 					line-height: 3em;
-					opacity: 0.0;/* 0.75; */
+					opacity:  0.75;
 					text-decoration: none;
 				}
 
